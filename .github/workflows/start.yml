@@ -20,6 +20,6 @@ jobs:
         pip install requests
     - name: Run the script
       env:
-        TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ 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 }}
       run: |
         python main.py "$TOKEN"
